@@ -1,3 +1,0 @@
-
-print("Flight Monitor Ready!")
-
