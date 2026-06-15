@@ -24,6 +24,7 @@ jobs:
 
       - name: Run monitor
         env:
-          WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+           QQ_SMTP_AUTH: ${{ secrets.QQ_SMTP_AUTH }}
         run: |
           python monitor.py
